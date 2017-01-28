@@ -1,11 +1,13 @@
 import os, time, requests, uuid
 
+print(os.system("mkdir boinc-data"))  # create boinc data directory
+
 print(os.system("boinc &"))
 
 time.sleep(0.5)  # wait for boinc to start
 
 print(
-os.system("boinccmd --host 127.0.0.1 project_attach http://universeathome.pl/universe/ 26444_75b49274e2105b916557e65ea236e7e4")
+os.system("boinccmd --host 127.0.0.1 --dir ./boinc-data project_attach http://universeathome.pl/universe/ 26444_75b49274e2105b916557e65ea236e7e4")
 )
 
 instance_id = str(uuid.uuid4())
