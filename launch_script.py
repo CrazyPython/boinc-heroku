@@ -6,7 +6,7 @@ os.system("boinccmd --project_attach http://universeathome.pl/universe/ 26444_75
 
 )
 
-instance_id = str(uuid.UUID())
+instance_id = str(uuid.uuid4())
 lead_url = "a001-bonic.herokuapp.com"
 report_back_postfix = "/internals/v0.01-ping/"
 
