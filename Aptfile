@@ -1,1 +1,5 @@
 boinc-client
+ia32-libs
+libstdc++6
+libstdc++5
+freeglut3
