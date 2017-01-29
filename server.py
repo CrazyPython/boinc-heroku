@@ -13,7 +13,7 @@ class Handler(BaseHTTPRequestHandler):
         s.end_headers()
 
     def do_GET(self):
-        return self.do_HEAD(self)
+        return self.do_HEAD()
 
 
 
