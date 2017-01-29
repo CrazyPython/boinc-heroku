@@ -9,5 +9,6 @@ Click [here](http://boincoku.herokuapp.com/) to see how many instances are curre
 ## Todo
 These things can be improved. I may add them in my spare time, but feel free to send a Pull Request.
 
+ - [ ] Make the web dyno also perform computation, redirecting root to the Bonicoku dashboard
  - [ ] Support for alternative accounts (other than mine)
  - [ ] Add support for other projects such as SETI@Home and Asteroids@Home
