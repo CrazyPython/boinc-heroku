@@ -5,11 +5,7 @@
   "logo": "https://raw.githubusercontent.com/CrazyPython/boinc-heroku/master/logo.png",
   "keywords": ["python", "computation"],
   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-apt"
-    },
-    {
-      "url": "heroku/python"
-    }
+    { "url": "https://github.com/heroku/heroku-buildpack-apt" },
+    { "url": "heroku/python" }
   ]
 }
