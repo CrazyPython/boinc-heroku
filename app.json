@@ -1,0 +1,7 @@
+{
+  "name": "BOINC on Heroku",
+  "description": "An extraordinarily simple way to contribute to BOINC with Heroku",
+  "repository": "https://github.com/CrazyPython/boinc-heroku",
+  "logo": "https://raw.githubusercontent.com/CrazyPython/boinc-heroku/master/logo.png",
+  "keywords": ["python", "computation"]
+}
