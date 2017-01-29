@@ -3,7 +3,7 @@
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import urllib
 
-PORT_NUMBER = 8000
+PORT_NUMBER = os.environ['PORT']
 BONICOKU_URL = 'https://boincoku.herokuapp.com/'
 
 class Handler(BaseHTTPRequestHandler):
