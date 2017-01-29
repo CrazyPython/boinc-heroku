@@ -8,9 +8,9 @@ BONICOKU_URL = 'https://boincoku.herokuapp.com/'
 
 class Handler(BaseHTTPRequestHandler):
     def do_HEAD(self):
-        s.send_response(301)
-        s.send_header("Location", BONICOKU_URL)
-        s.end_headers()
+        self.send_response(301)
+        self.send_header("Location", BONICOKU_URL)
+        self.end_headers()
 
     def do_GET(self):
         return self.do_HEAD()
