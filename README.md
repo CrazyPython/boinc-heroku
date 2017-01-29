@@ -1,6 +1,6 @@
 # BOINC on Heroku
 
-This is a simple app that deploys to two Heroku dynos to work on Universe@Home, supporting free plans. Be aware that this currently contributes to my account.
+This is a simple app that deploys to a Heroku dyno to work on Universe@Home, supporting free plans. Be aware that this currently contributes to my account.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
