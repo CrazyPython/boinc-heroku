@@ -12,6 +12,9 @@ class Handler(BaseHTTPRequestHandler):
         s.send_header("Location", BONICOKU_URL)
         s.end_headers()
 
+    def do_GET(s):
+        return do_HEAD(s)
+
 
 
 try:
