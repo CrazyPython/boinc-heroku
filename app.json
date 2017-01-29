@@ -14,6 +14,11 @@
        "size": "free"
      }
    },
+  "env": {
+    "APP_HEROKU_NAME": {
+      "description": "The same thing you put into the first field. This is used to prevent the app from sleeping",
+    }
+  },
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-apt" },
     { "url": "heroku/python" }
