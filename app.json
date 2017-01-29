@@ -16,7 +16,7 @@
    },
   "env": {
     "APP_HEROKU_NAME": {
-      "description": "The same thing you put into the first field. This is used to prevent the app from sleeping",
+      "description": "The same thing you put into the first field. This is used to prevent the app from sleeping"
     }
   },
   "buildpacks": [
