@@ -11,7 +11,7 @@ os.system("boinccmd --host 127.0.0.1 --dir ./boinc-data --passwd  26444_75b49274
 )
 
 instance_id = str(uuid.uuid4())
-lead_url = "https://bonicoku.herokuapp.com"
+lead_url = "https://boincoku.herokuapp.com/"
 report_back_postfix = "/internals/v0.01-ping"
 
 while True:
