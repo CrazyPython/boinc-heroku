@@ -18,5 +18,5 @@ report_back_postfix = "/internals/v0.01-ping"
 while True:
    time.sleep(10)
    requests.post(lead_url + report_back_postfix + instance_id)
-   print("UUID: " + str(uuid))
+   print("UUID: " + str(instance_id))
    pass
