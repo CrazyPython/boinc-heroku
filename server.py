@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
-import urllib
+import urllib, os
 
 PORT_NUMBER = os.environ['PORT']
 BONICOKU_URL = 'https://boincoku.herokuapp.com/'
