@@ -4,6 +4,12 @@
   "repository": "https://github.com/CrazyPython/boinc-heroku",
   "logo": "https://raw.githubusercontent.com/CrazyPython/boinc-heroku/master/logo.png",
   "keywords": ["python", "computation"],
+  "formation": {
+     "worker": {
+       "quantity": 1,
+       "size": "free"
+     }
+   }
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-apt" },
     { "url": "heroku/python" }
