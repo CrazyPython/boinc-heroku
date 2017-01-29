@@ -4,8 +4,6 @@ This is a simple app that deploys to a Heroku dyno to work on Universe@Home, sup
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-**Note:** You may have to scale the worker dyno to 1.
-
 Click [here](http://boincoku.herokuapp.com/) to see how many instances are currently contributing to Universe@Home through this app. (the dashboard is AKA Boincoku)
 
 ## Todo
