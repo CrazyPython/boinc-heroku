@@ -1,4 +1,4 @@
-import os, requests
+import os, requests, time
 
 url_to_get = "https://" + os.environ["APP_HEROKU_NAME"] + ".herokuapp.com"
 
